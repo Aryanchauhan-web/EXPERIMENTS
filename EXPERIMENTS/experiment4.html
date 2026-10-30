@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Perfect Hotel</title>
+</head>
+<body>
+    <h1 align="center">Hotel Room Booking Form</h1>
+<fieldset>
+    <legend> Booking Form </legend>
+    <form>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+        <br><br>
+
+        <label for="checkin">Check-In Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+        <br><br>
+
+        <label for="checkout">Check-Out Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+        <br><br>
+
+        <label for="room">Room Type:</label>
+        <select id="room" name="room">
+            <option value="">Select Room Type</option>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="deluxe">Deluxe Room</option>
+            <option value="suite">Suite</option>
+        </select>
+        <br><br>
+
+        <label for="guests">Number of Guests:</label><br> 
+        <input type="number" id="guests" name="guests" required >
+        <br><br>
+
+        <label for="requests">Special Requests:</label>
+        <br>
+        <textarea id="requests" name="requests"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</fieldset>
+
+   
+
+</body>
+</html>
